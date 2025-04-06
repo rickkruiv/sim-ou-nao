@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #FE5489;
+    background-color: #2f2f2f;
     text-transform: uppercase;
 }
 
@@ -36,7 +36,7 @@ h2 {
 
 .btn {
     width: 80px;
-    background-color: #FE5489;
+    background-color: #228b22;
     font-size: 1.2rem;
     color: #FEFEFE;
     margin-top: 1rem;
@@ -50,7 +50,7 @@ h2 {
 }
 
 .btn:hover { 
-    background-color: rgba(238, 54, 112, 0.9);
+    filter: brightness(.9);
 }
 
 .btn.sim {
@@ -58,6 +58,7 @@ h2 {
 }
 
 .btn.nao {
+    background: #b22222;
     position: absolute;
     right: 1.5rem;
 }
